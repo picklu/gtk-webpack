@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "test": "npm run dev && node ./builds/bundle.js"
+    "production": "webpack --mode production",
+    "test": "npm run dev && node ./builds/bundle.js",
+    "build": "npm run production && node ./builds/bundle.js"
   },
   "author": "",
   "license": "ISC",
