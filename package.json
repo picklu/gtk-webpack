@@ -1,12 +1,12 @@
 {
-  "name": "test",
+  "name": "get-to-know-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get to know webpack",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "test": "npm run dev && node ./bundle.js"
+    "test": "npm run dev && node ./builds/bundle.js"
   },
   "author": "",
   "license": "ISC",
